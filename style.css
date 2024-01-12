@@ -1,15 +1,66 @@
-.btn-cool-blues {
-  background: #2193b0; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #6dd5ed,
-    #2193b0
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #6dd5ed,
-    #2193b0
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #fff;
-  border: 3px solid #eee;
+.social-btn {
+  opacity: 0.6; /* You can adjust the opacity value as needed */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition effect */
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-btn:hover {
+  opacity: 1; /* Fully opaque on hover */
+}
+button.comingsoon {
+  padding: 10px 15px;
+  background-color: #4f5052;
+  color: rgb(255, 255, 255, 0.6);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+button.neon {
+  padding: 10px 15px;
+  background-color: #384191;
+  color: rgb(255, 255, 255, 0.6);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover.neon {
+  background: #ffd700;
+  color: #050801;
+  box-shadow: 0 0 5px #ffd700, 0 0 25px #ffd700, 0 0 40px #ffd700;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.mybadge {
+  display: inline-block;
+  padding: 5px 10px; /* Adjust the padding as needed */
+  border-radius: 10px; /* Adjust the border-radius for curved corners */
+  font-size: 10pt;
+}
+
+/* Style for Paid Item */
+.paid-badge {
+  background-color: #ffd700; /* Gold */
+  color: #000; /* Black text for contrast */
+  box-shadow: 0 0 5px #ffd700;
+}
+
+.free-badge {
+  background-color: #4caf50; /* Green */
+  color: #fff; /* White text for contrast */
+}
+.comingsoon-badge {
+  background-color: #ff9900; /* Green */
+  color: #fff; /* White text for contrast */
 }
