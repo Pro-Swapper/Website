@@ -33,7 +33,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">
-          <img src="/images/logo.png" alt="Bootstrap" width="100px" height="auto" />
+          <img src="/images/logo.webp" alt="Bootstrap" width="100px" height="auto" />
         </a>
         <button
           class="navbar-toggler"
@@ -62,18 +62,19 @@
       </div>
     </nav>
     <main>
+      <h1 class="title">Our Software</h1>
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <div class="card" style="background-color: #212229">
+            <div class="card">
               <div class="card-header text-white">
                 <h1>Lobby Bot</h1>
                 <div class="mybadge paid-badge">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="icon icon-tabler icon-tabler-diamond"
-                    width="25"
-                    height="25"
+                    width="20"
+                    height="20"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="#2c3e50"
@@ -88,51 +89,67 @@
                   Paid
                 </div>
               </div>
-              <div class="card-body">
-                <img src="images/lobbybot.webp" style="height: 270px; width: 480px; border-radius: 10px" />
-              </div>
+              <img src="images/lobbybot.webp" class="showcase" />
               <div class="card-footer">
                 <a href="https://bstlar.com/1c/lobbybotdownload"><button class="neon">Download</button></a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card" style="background-color: #212229">
+            <div class="card">
               <div class="card-header text-white">
                 <h1>OBS Rank Overlay</h1>
-                <div class="mybadge comingsoon-badge">
+                <div class="mybadge free-badge">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="icon icon-tabler icon-tabler-calendar-event"
+                    class="icon icon-tabler icon-tabler-discount-check"
                     width="20"
                     height="20"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
-                    stroke="#2c3e50"
+                    stroke="#ffffff"
                     fill="none"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   >
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
-                    <path d="M16 3l0 4" />
-                    <path d="M8 3l0 4" />
-                    <path d="M4 11l16 0" />
-                    <path d="M8 15h2v2h-2z" />
+                    <path
+                      d="M5 7.2a2.2 2.2 0 0 1 2.2 -2.2h1a2.2 2.2 0 0 0 1.55 -.64l.7 -.7a2.2 2.2 0 0 1 3.12 0l.7 .7c.412 .41 .97 .64 1.55 .64h1a2.2 2.2 0 0 1 2.2 2.2v1c0 .58 .23 1.138 .64 1.55l.7 .7a2.2 2.2 0 0 1 0 3.12l-.7 .7a2.2 2.2 0 0 0 -.64 1.55v1a2.2 2.2 0 0 1 -2.2 2.2h-1a2.2 2.2 0 0 0 -1.55 .64l-.7 .7a2.2 2.2 0 0 1 -3.12 0l-.7 -.7a2.2 2.2 0 0 0 -1.55 -.64h-1a2.2 2.2 0 0 1 -2.2 -2.2v-1a2.2 2.2 0 0 0 -.64 -1.55l-.7 -.7a2.2 2.2 0 0 1 0 -3.12l.7 -.7a2.2 2.2 0 0 0 .64 -1.55v-1"
+                    />
+                    <path d="M9 12l2 2l4 -4" />
                   </svg>
-                  Coming Soon
+                  Free
                 </div>
               </div>
-              <div class="card-body">
-                <img src="images/rankoverlay.png" style="height: 270px; width: 480px; border-radius: 10px" />
-              </div>
+              <img src="images/rankoverlay.webp" class="showcase" />
               <div class="card-footer">
-                <a href="#"><button class="comingsoon">Coming Soon</button></a>
+                <a href="https://rankoverlay.proswapper.xyz"
+                  ><button class="available">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-external-link"
+                      width="15"
+                      height="15"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="#ffffff"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+                      <path d="M11 13l9 -9" />
+                      <path d="M15 4h5v5" />
+                    </svg>
+                    Open
+                  </button></a
+                >
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card" style="background-color: #212229">
+            <div class="card">
               <div class="card-header text-white">
                 <h1>Skin Swapper</h1>
                 <div class="mybadge comingsoon-badge">
@@ -158,9 +175,7 @@
                   Coming Soon
                 </div>
               </div>
-              <div class="card-body">
-                <img src="images/promo1.png" style="height: 270px; width: 480px; border-radius: 10px" />
-              </div>
+              <img src="images/promo1.webp" class="showcase" />
               <div class="card-footer">
                 <a href="#"><button class="comingsoon">Coming Soon</button></a>
               </div>
@@ -169,7 +184,7 @@
         </div>
       </div>
     </main>
-    <footer class="text-center text-white mt-5" style="background-color: rgba(0, 0, 0, 0.1)">
+    <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.1); margin-top: auto">
       <!-- Grid container -->
       <div class="container pt-2">
         <!-- Section: Social media -->
@@ -182,8 +197,6 @@
         </section>
         <!-- Section: Social media -->
       </div>
-      <!-- Grid container -->
-
       <!-- Copyright -->
       <div class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2024 Copyright:
